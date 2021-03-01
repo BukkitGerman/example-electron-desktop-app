@@ -1,0 +1,24 @@
+{
+  "name": "example-electron-desktop-app",
+  "version": "1.0.0",
+  "description": "A simple example desktop app based on the electron framework. Only for learning purposes.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BukkitGerman/example-electron-desktop-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BukkitGerman/example-electron-desktop-app/issues"
+  },
+  "homepage": "https://github.com/BukkitGerman/example-electron-desktop-app#readme",
+  "devDependencies": {
+    "electron": "^11.3.0"
+  }
+}
