@@ -4,6 +4,8 @@
   "description": "A simple example desktop app based on the electron framework. Only for learning purposes.",
   "main": "main.js",
   "scripts": {
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron ."
   },
@@ -20,5 +22,8 @@
   "homepage": "https://github.com/BukkitGerman/example-electron-desktop-app#readme",
   "devDependencies": {
     "electron": "^11.3.0"
+  },
+  "dependencies": {
+    
   }
 }
